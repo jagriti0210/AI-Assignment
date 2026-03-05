@@ -5,7 +5,7 @@ int main() {
     char question[200];
     int guess;
 
-    printf("=== Simple Turing Test Simulation ===\n");
+    printf("== Simple Turing Test Simulation ==\n");
 
     printf("Judge: Ask a question:\n");
     fgets(question, sizeof(question), stdin);
