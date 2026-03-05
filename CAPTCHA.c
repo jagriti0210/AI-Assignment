@@ -6,7 +6,7 @@ int main() {
     int captcha, user_input;
 
     srand(time(0));
-    captcha = rand() % 9000 + 1000;  // 4-digit captcha
+    captcha = rand() % 9000 + 1000;  
 
     printf("=== CAPTCHA Verification ===\n");
     printf("Enter the following number: %d\n", captcha);
